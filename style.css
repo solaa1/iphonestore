@@ -1,0 +1,103 @@
+/* Global Rules */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+/* Start Header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 60px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.links{
+    margin-right: 100px;
+}
+.links ul{
+    width: 80%;
+    display: flex;
+}
+.links ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.links ul li a{
+    color: white;
+}
+/* Start Section */
+.txt{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40%;
+    color: white;
+}
+.txt h2{
+    margin-bottom: 50px;
+    margin-left: 100px;
+    font-size: 40px;
+}
+.txt p{
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+.txt .btn{
+    margin-bottom: 50px;
+    margin-left: 100px;
+    width: fit-content;
+}
+.txt .btn button{
+    padding: 15px ;
+    border-radius: 80px;
+    transition: 0.3s;
+}
+.txt .btn button a{
+    color: #000;
+    font-weight: bolder;
+}
+.txt .btn:hover button{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.golden{
+    position: absolute;
+    margin-left: 70%;
+    width: 250px;
+}
+.imgs{
+    margin-left: 540px;
+    display: none;
+}
+.imgs img{
+    margin-top: 35%;
+    margin-left: 20px;
+    width: 40px;
+    cursor: pointer;
+}
+.imgs img:hover{
+    transform: scale(1.1);
+    background-color: #333;
+    border-radius: 8px;
+}
+.unhidden{
+    display: block;
+}
